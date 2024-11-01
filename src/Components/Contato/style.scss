@@ -1,0 +1,81 @@
+.talkUs {
+  color: white;
+  padding: 100px 350px;
+
+form {
+
+  button {
+    background-color: yellow;
+    padding: 6px;
+    margin-top: 24px;
+    border-radius: 9px;
+    width: 450px;
+    font-weight: bold;
+    border: none;
+
+    &:hover {
+      background-color: rgb(240, 240, 79);
+    }
+  }
+
+  input {
+    margin-bottom: 24px;
+    width: 450px;
+  }
+}
+
+div {
+  margin-left: 64px;
+
+  h2 {
+    background-color: yellow;
+    width: 200px;
+    border-radius: 9px;
+    margin-bottom: 24px;
+    color: black;
+  }
+
+  p {
+    margin-bottom: 64px;
+    width: 600px;
+  }
+}
+
+  .socialLogo {
+    display: flex;
+
+      li {
+        margin-right: 16px;
+
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+}
+
+.cardsContact {
+  padding: 75px 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+
+  div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 9px;
+    text-align: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-weight: bold;
+    }
+  }
+}

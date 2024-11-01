@@ -1,0 +1,26 @@
+#seabout {
+  padding: 64px 200px;
+  margin-bottom: 120px;
+
+  h2 {
+    color: red;
+  }
+
+  p {
+    width: 700px;
+    color: white;
+  }
+}
+
+#semembers {
+  padding: 64px 200px;
+
+  .card {
+    width: 300px;
+    height: 435px;
+
+    h2 {
+      margin-bottom: 300px;
+    }
+  }
+}

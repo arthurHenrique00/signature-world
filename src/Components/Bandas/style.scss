@@ -1,0 +1,15 @@
+.logos {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  gap: 64px;
+
+
+  img, a {
+    filter: brightness(60%);
+
+    &:hover {
+      filter: brightness(100%);
+    }
+  }
+}
