@@ -8,9 +8,15 @@ import seCarousel from '../../signatureimg/seCarousel.jpeg'
 import seCarousel1 from '../../signatureimg/seCarousel1.jpg'
 import maxCavalera from '../../signatureimg/maxCavalera.jpg'
 import maxCavalera1 from '../../signatureimg/maxCavalera1.jpg'
+import andreasKisser from '../../signatureimg/andreasKisser.jpg'
+import andreasKisser1 from '../../signatureimg/andreasKisser_1.jpg'
+import igorCavalera from '../../signatureimg/igorCavalera.jpg'
+import igorCavalera1 from '../../signatureimg/igorCavalera_1.jpg'
 
 const Sepultura = () => {
   const [maxC, setMaxC] = useState(maxCavalera)
+  const [andreasK, setAndreasK] = useState(andreasKisser)
+  const [igorC, setIgorC] = useState(igorCavalera)
 
   return (
     <>
@@ -139,7 +145,29 @@ const Sepultura = () => {
             <img
               style={{ width: '300px', height: '435px' }}
               src={maxC}
-              onClick={() => setMaxC(maxCavalera1)}
+              onMouseOver={() => setMaxC(maxCavalera1)}
+            />
+            <div className="card-img-overlay">
+              <h2>Max Cavalera</h2>
+              <a href="">Signature</a>
+            </div>
+          </div>
+          <div className="card">
+            <img
+              style={{ width: '300px', height: '435px' }}
+              src={andreasK}
+              onMouseOver={() => setAndreasK(andreasKisser1)}
+            />
+            <div className="card-img-overlay">
+              <h2>Max Cavalera</h2>
+              <a href="">Signature</a>
+            </div>
+          </div>
+          <div className="card">
+            <img
+              style={{ width: '300px', height: '435px' }}
+              src={igorC}
+              onMouseOver={() => setIgorC(igorCavalera1)}
             />
             <div className="card-img-overlay">
               <h2>Max Cavalera</h2>

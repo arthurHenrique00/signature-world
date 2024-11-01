@@ -14,7 +14,7 @@ const Bandas = () => (
     <div style={{ textAlign: 'center', marginTop: '26px' }}>
       <img style={{ width: '150px', height: '50px' }} src={brushtxt} />
     </div>
-    <div style={{ placeItems: 'center', marginBottom: '120px' }}>
+    <div style={{ marginBottom: '120px' }}>
       <ul className="logos">
         <li>
           <div data-aos="">
