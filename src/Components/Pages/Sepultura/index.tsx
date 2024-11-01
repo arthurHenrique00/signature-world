@@ -135,19 +135,17 @@ const Sepultura = () => {
           </div>
         </section>
         <section id="semembers" style={{ textAlign: 'center' }}>
-          <section className="card text-bg-dark">
+          <div className="card">
             <img
-              src={maxC}
               style={{ width: '300px', height: '435px' }}
-              onMouseOver={() => setMaxC(maxCavalera1)}
+              src={maxC}
+              onClick={() => setMaxC(maxCavalera1)}
             />
             <div className="card-img-overlay">
               <h2>Max Cavalera</h2>
-              <a href="" className="btn btn-primary">
-                Signatures
-              </a>
+              <a href="">Signature</a>
             </div>
-          </section>
+          </div>
         </section>
       </div>
       <Footer />

@@ -18,9 +18,24 @@
   .card {
     width: 300px;
     height: 435px;
+    background-color: black;
 
     h2 {
-      margin-bottom: 300px;
+      color: white;
+      margin-bottom: 320px;
+    }
+
+    a {
+      font-family: 'Sacramento';
+      font-weight: bold;
+      font-size: 22px;
+      padding: 6px;
+      background: transparent;
+      color: red;
+
+      &:hover {
+        font-size: 26px;
+      }
     }
   }
 }
