@@ -10,6 +10,8 @@ import Releases from './Components/Lancamentos'
 import './reset.scss'
 import Sepultura from './Components/Pages/Sepultura'
 import Slayer from './Components/Pages/Slayer'
+import Slipknot from './Components/Pages/Slipknot'
+import Gojira from './Components/Pages/Gojira'
 
 const rotas = createBrowserRouter([
   {
@@ -33,6 +35,14 @@ const rotas = createBrowserRouter([
   {
     path: '/slayer',
     element: <Slayer />
+  },
+  {
+    path: '/slipknot',
+    element: <Slipknot />
+  },
+  {
+    path: '/gojira',
+    element: <Gojira />
   }
 ])
 
