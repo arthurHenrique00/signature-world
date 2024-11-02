@@ -9,6 +9,7 @@ import Sobre from './Components/Sobre'
 import Releases from './Components/Lancamentos'
 import './reset.scss'
 import Sepultura from './Components/Pages/Sepultura'
+import Slayer from './Components/Pages/Slayer'
 
 const rotas = createBrowserRouter([
   {

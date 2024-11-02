@@ -1,4 +1,4 @@
-#seabout {
+#about {
   padding: 64px 200px;
   margin-bottom: 120px;
 
@@ -12,10 +12,11 @@
   }
 }
 
-#semembers {
+#members {
   padding: 64px 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 120px;
   margin-bottom: 120px;
 
   .card {

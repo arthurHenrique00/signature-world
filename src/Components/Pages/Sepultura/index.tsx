@@ -1,4 +1,4 @@
-import './style.scss'
+import '../style.scss'
 import Footer from '../../Footer'
 import sepultura1 from '../../signatureimg/sepultura_2.jpg'
 import sepultura2 from '../../signatureimg/sepultura.jpg'
@@ -35,10 +35,10 @@ const Sepultura = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="#seabout">Sobre</a>
+              <a href="#about">Sobre</a>
             </li>
             <li>
-              <a href="#semembers">Membros</a>
+              <a href="#members">Membros</a>
             </li>
           </ul>
         </div>
@@ -87,7 +87,7 @@ const Sepultura = () => {
         >
           <span className="carousel-control-prev-icon" />
         </button>
-        <section id="seabout" style={{ display: 'flex' }}>
+        <section id="about" style={{ display: 'flex' }}>
           <div style={{ marginRight: '64px' }}>
             <h2>Sobre o Sepultura</h2>
             <p>
@@ -135,7 +135,7 @@ const Sepultura = () => {
             </div>
           </div>
         </section>
-        <section id="semembers" style={{ textAlign: 'center' }}>
+        <section id="members" style={{ textAlign: 'center' }}>
           <div className="card">
             <div
               className="carousel slide carousel-fade"
