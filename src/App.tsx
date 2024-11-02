@@ -12,6 +12,8 @@ import Sepultura from './Components/Pages/Sepultura'
 import Slayer from './Components/Pages/Slayer'
 import Slipknot from './Components/Pages/Slipknot'
 import Gojira from './Components/Pages/Gojira'
+import Megadeth from './Components/Pages/Megadeth'
+import Metallica from './Components/Pages/Metallica'
 
 const rotas = createBrowserRouter([
   {
@@ -43,6 +45,14 @@ const rotas = createBrowserRouter([
   {
     path: '/gojira',
     element: <Gojira />
+  },
+  {
+    path: '/megadeth',
+    element: <Megadeth />
+  },
+  {
+    path: '/metallica',
+    element: <Metallica />
   }
 ])
 

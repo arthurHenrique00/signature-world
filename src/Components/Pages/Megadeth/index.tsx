@@ -1,17 +1,15 @@
 import Footer from '../../Footer'
-import gojira from '../../signatureimg/gojirabnnr1.jpeg'
-import gojira1 from '../../signatureimg/gojira_2.jpg'
-import gojira2 from '../../signatureimg/gojirabnnr.jpeg'
-import goCarousel from '../../signatureimg/gocarou.jpeg'
-import goCarousel1 from '../../signatureimg/gocarou1.jpeg'
-import joeD from '../../signatureimg/joeDuplantier.jpg'
-import joeD1 from '../../signatureimg/joeDuplantier_1.jpg'
-import chrisA from '../../signatureimg/christianAndreu.jpg'
-import chrisA1 from '../../signatureimg/christianAndreu_1.jpg'
-import marD from '../../signatureimg/marioDuplantier.png'
-import marD1 from '../../signatureimg/marioDuplantier_1.jpeg'
+import megadeth from '../../signatureimg/megadeth_1.jpg'
+import megadeth1 from '../../signatureimg/megadeth_2.jpg'
+import megadeth2 from '../../signatureimg/megadeth_3.jpg'
+import mdCarousel from '../../signatureimg/mdCarou.jpg'
+import mdCarousel1 from '../../signatureimg/mdCarou1.jpg'
+import daveM from '../../signatureimg/daveMustaine.jpg'
+import daveM1 from '../../signatureimg/daveMustaine_1.jpg'
+import marF from '../../signatureimg/martyF.webp'
+import marF1 from '../../signatureimg/martyF1.jpg'
 
-const Gojira = () => (
+const Megadeth = () => (
   <>
     <header>
       <div className="title">
@@ -49,13 +47,13 @@ const Gojira = () => (
     >
       <div className="carousel-inner">
         <div data-bs-interval="1000" className="carousel-item active">
-          <img style={{ width: '1280px', height: '640px' }} src={gojira} />
+          <img style={{ width: '1280px', height: '640px' }} src={megadeth} />
         </div>
         <div className="carousel-item">
-          <img style={{ width: '1280px', height: '640px' }} src={gojira1} />
+          <img style={{ width: '1280px', height: '640px' }} src={megadeth1} />
         </div>
         <div className="carousel-item">
-          <img style={{ width: '1280px', height: '640px' }} src={gojira2} />
+          <img style={{ width: '1280px', height: '640px' }} src={megadeth2} />
         </div>
       </div>
     </div>
@@ -89,7 +87,7 @@ const Gojira = () => (
                 height: '450px',
                 borderRadius: '9px'
               }}
-              src={goCarousel}
+              src={mdCarousel}
             />
           </div>
           <div className="carousel-item">
@@ -99,27 +97,26 @@ const Gojira = () => (
                 height: '450px',
                 borderRadius: '9px'
               }}
-              src={goCarousel1}
+              src={mdCarousel1}
             />
           </div>
         </div>
       </div>
       <div style={{ marginLeft: '64px' }}>
-        <h2 style={{ color: '#232ADE' }}>Sobre o Gojira</h2>
+        <h2 style={{ color: '#25F54A' }}>Sobre o Megadeth</h2>
         <p>
-          Gojira é uma banda francesa de metal formada em 1996, originalmente
-          sob o nome Godzilla, mas depois renomeada em homenagem ao famoso
-          monstro japonês. Conhecida por suas letras que abordam temas
-          ecológicos, espirituais e existenciais, a banda mistura elementos de
-          death metal progressivo com passagens atmosféricas e complexas,
-          criando um som intenso e único. Liderada pelos irmãos Joe e Mario
-          Duplantier, Gojira ganhou reconhecimento por sua técnica excepcional e
-          pela profundidade emocional de suas músicas. Álbuns como From Mars to
-          Sirius e The Way of All Flesh consolidaram a banda como uma força
-          inovadora no metal moderno, abordando questões como a preservação
-          ambiental e a consciência humana. Ao longo dos anos, Gojira conquistou
-          uma base de fãs global e é hoje aclamada por sua originalidade e
-          impacto no gênero, elevando o death metal a novas dimensões.
+          Megadeth é uma das bandas mais icônicas do thrash metal, conhecida por
+          sua velocidade, técnica e letras agressivas que abordam temas como
+          política, guerra, morte e sociedade. Fundada em 1983 pelo guitarrista
+          e vocalista Dave Mustaine após sua saída do Metallica, a banda
+          rapidamente se estabeleceu com um som distinto, marcado por riffs
+          complexos e solos virtuosos. Com álbuns como Peace Sells... But Whos
+          Buying?, Rust in Peace, e Countdown to Extinction, o Megadeth
+          consolidou sua posição como uma das Big Four do thrash, ao lado de
+          Metallica, Slayer e Anthrax. A banda passou por várias formações ao
+          longo dos anos, mas a visão de Mustaine sempre manteve o Megadeth
+          relevante e influente, tornando-se um verdadeiro símbolo da
+          agressividade e técnica no heavy metal.
         </p>
       </div>
     </section>
@@ -128,16 +125,16 @@ const Gojira = () => (
         <div className="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div data-bs-interval="1000" className="carousel-item active">
-              <img style={{ width: '300px', height: '435px' }} src={joeD} />
+              <img style={{ width: '300px', height: '435px' }} src={daveM1} />
             </div>
             <div className="carousel-item">
-              <img style={{ width: '300px', height: '435px' }} src={joeD1} />
+              <img style={{ width: '300px', height: '435px' }} src={daveM} />
             </div>
           </div>
         </div>
         <div>
-          <h2>Joe Duplantier</h2>
-          <a style={{ color: '#232ADE' }} href="">
+          <h2>Dave Mustaine</h2>
+          <a style={{ color: '#25F54A' }} href="">
             Signature
           </a>
         </div>
@@ -146,39 +143,23 @@ const Gojira = () => (
         <div className="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div data-bs-interval="1000" className="carousel-item active">
-              <img style={{ width: '300px', height: '435px' }} src={chrisA} />
+              <img style={{ width: '300px', height: '435px' }} src={marF} />
             </div>
             <div className="carousel-item">
-              <img style={{ width: '300px', height: '435px' }} src={chrisA1} />
+              <img style={{ width: '300px', height: '435px' }} src={marF1} />
             </div>
           </div>
         </div>
         <div>
-          <h2>Christian Andreu</h2>
-          <a style={{ color: '#232ADE' }} href="">
+          <h2>Marty Friedman</h2>
+          <a style={{ color: '#25F54A' }} href="">
             Signature
           </a>
         </div>
-      </div>
-      <div className="card">
-        <div className="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div className="carousel-inner">
-            <div data-bs-interval="1000" className="carousel-item active">
-              <img style={{ width: '300px', height: '435px' }} src={marD} />
-            </div>
-            <div className="carousel-item">
-              <img style={{ width: '300px', height: '435px' }} src={marD1} />
-            </div>
-          </div>
-        </div>
-        <h2 className="card-title">Mario Duplantier</h2>
-        <a style={{ color: '#232ADE' }} href="">
-          Signature
-        </a>
       </div>
     </section>
     <Footer />
   </>
 )
 
-export default Gojira
+export default Megadeth
