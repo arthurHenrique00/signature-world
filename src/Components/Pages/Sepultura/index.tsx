@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './style.scss'
 import Footer from '../../Footer'
 import sepultura1 from '../../signatureimg/sepultura_2.jpg'
@@ -8,16 +7,12 @@ import seCarousel from '../../signatureimg/seCarousel.jpeg'
 import seCarousel1 from '../../signatureimg/seCarousel1.jpg'
 import maxCavalera from '../../signatureimg/maxCavalera.jpg'
 import maxCavalera1 from '../../signatureimg/maxCavalera1.jpg'
-import andreasKisser from '../../signatureimg/andreasKisser.jpg'
-import andreasKisser1 from '../../signatureimg/andreasKisser_1.jpg'
+import andreasKisser from '../../signatureimg/andreasKisser.jpeg'
+import andreasKisser1 from '../../signatureimg/andreasKisser1.jpg'
 import igorCavalera from '../../signatureimg/igorCavalera.jpg'
 import igorCavalera1 from '../../signatureimg/igorCavalera_1.jpg'
 
 const Sepultura = () => {
-  const [maxC, setMaxC] = useState(maxCavalera)
-  const [andreasK, setAndreasK] = useState(andreasKisser)
-  const [igorC, setIgorC] = useState(igorCavalera)
-
   return (
     <>
       <header>
@@ -142,37 +137,77 @@ const Sepultura = () => {
         </section>
         <section id="semembers" style={{ textAlign: 'center' }}>
           <div className="card">
-            <img
-              style={{ width: '300px', height: '435px' }}
-              src={maxC}
-              onMouseOver={() => setMaxC(maxCavalera1)}
-            />
-            <div className="card-img-overlay">
+            <div
+              className="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div data-bs-interval="1000" className="carousel-item active">
+                  <img
+                    style={{ width: '300px', height: '435px' }}
+                    src={maxCavalera}
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    style={{ width: '300px', height: '435px' }}
+                    src={maxCavalera1}
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
               <h2>Max Cavalera</h2>
               <a href="">Signature</a>
             </div>
           </div>
           <div className="card">
-            <img
-              style={{ width: '300px', height: '435px' }}
-              src={andreasK}
-              onMouseOver={() => setAndreasK(andreasKisser1)}
-            />
-            <div className="card-img-overlay">
-              <h2>Max Cavalera</h2>
+            <div
+              className="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div data-bs-interval="1000" className="carousel-item active">
+                  <img
+                    style={{ width: '300px', height: '435px' }}
+                    src={andreasKisser}
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    style={{ width: '300px', height: '435px' }}
+                    src={andreasKisser1}
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2>Andreas Kisser</h2>
               <a href="">Signature</a>
             </div>
           </div>
           <div className="card">
-            <img
-              style={{ width: '300px', height: '435px' }}
-              src={igorC}
-              onMouseOver={() => setIgorC(igorCavalera1)}
-            />
-            <div className="card-img-overlay">
-              <h2>Max Cavalera</h2>
-              <a href="">Signature</a>
+            <div
+              className="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div data-bs-interval="1000" className="carousel-item active">
+                  <img
+                    style={{ width: '300px', height: '435px' }}
+                    src={igorCavalera}
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    style={{ width: '300px', height: '435px' }}
+                    src={igorCavalera1}
+                  />
+                </div>
+              </div>
             </div>
+            <h2 className="card-title">Igor Cavalera</h2>
+            <a href="">Signature</a>
           </div>
         </section>
       </div>

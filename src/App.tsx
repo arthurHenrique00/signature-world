@@ -28,6 +28,10 @@ const rotas = createBrowserRouter([
   {
     path: '/sepultura',
     element: <Sepultura />
+  },
+  {
+    path: '/slayer',
+    element: <Slayer />
   }
 ])
 

@@ -16,15 +16,20 @@
   padding: 64px 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 120px;
 
   .card {
     width: 300px;
     height: 435px;
     background-color: black;
 
+    img {
+      border-radius: 9px;
+    }
+
     h2 {
       color: white;
-      margin-bottom: 320px;
+      font-family: Big Shoulders Display, sans serif;
     }
 
     a {
