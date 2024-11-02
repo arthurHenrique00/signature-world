@@ -9,7 +9,7 @@ import richK1 from '../../signatureimg/richardKruspe1.jpg'
 import paulL from '../../signatureimg/paulLanders_1.jpg'
 import paulL1 from '../../signatureimg/paulLanders.jpg'
 import olvR from '../../signatureimg/oliverRiedel.webp'
-import olvR1 from '../../signatureimg/tomAraya_1.jpg'
+import olvR1 from '../../signatureimg/oliverRiedel_1.jpg'
 
 const Rammstein = () => (
   <>

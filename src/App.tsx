@@ -15,6 +15,7 @@ import Gojira from './Components/Pages/Gojira'
 import Megadeth from './Components/Pages/Megadeth'
 import Metallica from './Components/Pages/Metallica'
 import Rammstein from './Components/Pages/Rammstein'
+import Deftones from './Components/Pages/Deftones'
 
 const rotas = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const rotas = createBrowserRouter([
   {
     path: '/rammstein',
     element: <Rammstein />
+  },
+  {
+    path: '/deftones',
+    element: <Deftones />
   }
 ])
 
