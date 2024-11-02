@@ -14,6 +14,7 @@ import Slipknot from './Components/Pages/Slipknot'
 import Gojira from './Components/Pages/Gojira'
 import Megadeth from './Components/Pages/Megadeth'
 import Metallica from './Components/Pages/Metallica'
+import Rammstein from './Components/Pages/Rammstein'
 
 const rotas = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const rotas = createBrowserRouter([
   {
     path: '/metallica',
     element: <Metallica />
+  },
+  {
+    path: '/rammstein',
+    element: <Rammstein />
   }
 ])
 
