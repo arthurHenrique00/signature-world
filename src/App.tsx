@@ -16,6 +16,7 @@ import Megadeth from './Components/Pages/Megadeth'
 import Metallica from './Components/Pages/Metallica'
 import Rammstein from './Components/Pages/Rammstein'
 import Deftones from './Components/Pages/Deftones'
+import StephSign from './Components/Pages/Signs/Seteph'
 
 const rotas = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const rotas = createBrowserRouter([
   {
     path: '/deftones',
     element: <Deftones />
+  },
+  {
+    path: '/stepsign',
+    element: <StephSign />
   }
 ])
 
