@@ -17,6 +17,7 @@ import Metallica from './Components/Pages/Metallica'
 import Rammstein from './Components/Pages/Rammstein'
 import Deftones from './Components/Pages/Deftones'
 import StephSign from './Components/Pages/Signs/Seteph'
+import AbeSign from './Components/Pages/Signs/Abe'
 
 const rotas = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ const rotas = createBrowserRouter([
   {
     path: '/stepsign',
     element: <StephSign />
+  },
+  {
+    path: '/abesign',
+    element: <AbeSign />
   }
 ])
 

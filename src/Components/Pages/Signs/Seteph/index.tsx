@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '../style.scss'
-import stepSign from '../../../signatureimg/stephen_sign.jpg'
+import stepBanner from '../../../signatureimg/stephen_sign.jpg'
 import scPurp from '../../../signatureimg/sc_purp.jpg'
 import scPurp1 from '../../../signatureimg/sc_purp_1.jpg'
 import scRed from '../../../signatureimg/sc_red.jpg'
@@ -38,7 +38,7 @@ const StephSign = () => {
         </div>
       </header>
       <section id="signature">
-        <img className="banner" src={stepSign} />
+        <img className="banner" src={stepBanner} />
         <h2 className="title" style={{ color: '#82AEF5' }}>
           Signatures
         </h2>
