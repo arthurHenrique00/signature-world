@@ -80,7 +80,7 @@ const Slayer = () => (
     <section id="about" style={{ display: 'flex' }}>
       <div
         id="carousel-home"
-        className="carousel slide"
+        className="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner" style={{ marginBottom: '32px' }}>
