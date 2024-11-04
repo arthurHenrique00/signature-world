@@ -6,7 +6,7 @@ padding: 100px 270px;
 div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 48px;
+  gap: 48px;
 
     img {
       width: 200px;

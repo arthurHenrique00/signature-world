@@ -18,6 +18,9 @@ import Rammstein from './Components/Pages/Rammstein'
 import Deftones from './Components/Pages/Deftones'
 import StephSign from './Components/Pages/Signs/Seteph'
 import AbeSign from './Components/Pages/Signs/Abe'
+import MaxSign from './Components/Pages/Signs/Max'
+import AndreasSign from './Components/Pages/Signs/Andreas'
+import IgorSign from './Components/Pages/Signs/Igor'
 
 const rotas = createBrowserRouter([
   {
@@ -73,6 +76,18 @@ const rotas = createBrowserRouter([
   {
     path: '/abesign',
     element: <AbeSign />
+  },
+  {
+    path: '/maxsign',
+    element: <MaxSign />
+  },
+  {
+    path: '/andreassign',
+    element: <AndreasSign />
+  },
+  {
+    path: '/igorsign',
+    element: <IgorSign />
   }
 ])
 

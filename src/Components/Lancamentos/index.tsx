@@ -33,7 +33,7 @@ const Releases = () => {
           <div data-aos="">
             <img src={mickThomsonNews} />
             <div className="news">
-              <a href="/palhetasmick">Palhetas do Mick Thomson</a>
+              <a href="/micksign">Palhetas do Mick Thomson</a>
               <p>
                 O lendário guitarrista Mick Thomson, conhecido por seu estilo
                 pesado e precisão brutal no Slipknot, acaba de lançar uma linha
@@ -45,7 +45,7 @@ const Releases = () => {
           <div data-aos="">
             <img src={tomArayaNews} />
             <div className="news">
-              <a href="/tomarayabaixo">O baixo de Tom Araya</a>
+              <a href="/arayasign">O baixo de Tom Araya</a>
               <p>
                 O icônico vocalista e baixista do Slayer, Tom Araya, revelou seu
                 mais novo baixo signature, feito para capturar toda a
@@ -56,7 +56,7 @@ const Releases = () => {
           <div data-aos="">
             <img src={monsterGuitarNews} />
             <div className="news">
-              <a href="/kirkguitars">Novas guitarras monsters!</a>
+              <a href="/kirksign">Novas guitarras monsters!</a>
               <p>
                 A linha Signature Monsters de Kirk Hammett foi lançada com
                 guitarras icônicas que homenageiam os clássicos do terror.
@@ -69,7 +69,7 @@ const Releases = () => {
           <div data-aos="">
             <img src={kirkPickNews} />
             <div className="news">
-              <a href="/jazzpurple">As palhetas Jazz III roxo</a>
+              <a href="/kirksign">As palhetas Jazz III roxo</a>
               <p>
                 A Jazz III roxa Signature de Kirk Hammett foi lançada para
                 capturar o toque rápido e preciso do guitarrista. Desenvolvida
@@ -82,7 +82,7 @@ const Releases = () => {
           <div data-aos="">
             <img src={jimJaguarNews} />
             <div className="news">
-              <a href="/jimwhitejaguar">Jaguar Branca de Jim Root!</a>
+              <a href="/jimrootsign">Jaguar Branca de Jim Root!</a>
               <p>
                 A Fender lançou a aguardada Jim Root Jaguar branca, trazendo um
                 visual elegante e minimalista com acabamento em branco fosco,

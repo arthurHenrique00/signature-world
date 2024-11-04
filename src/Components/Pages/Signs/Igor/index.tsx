@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import '../style.scss'
-import abeBanner from '../../../signatureimg/abe_sign.jpg'
-import abSnare from '../../../signatureimg/ab_snare.jpg'
-import abSnare1 from '../../../signatureimg/ab_snare_1.webp'
-import abStick from '../../../signatureimg/ac_baqueta.jpg'
-import abStick1 from '../../../signatureimg/ac_baqueta_1.jpg'
-
-const AbeSign = () => {
-  const [signSnare, setsignSnare] = useState(abSnare)
-  const [signStick, setsignStick] = useState(abStick)
+import igorBanner from '../../../signatureimg/igor_sign.jpg'
+import icBaqueta from '../../../signatureimg/ic_sign.jpg'
+import icBaqueta1 from '../../../signatureimg/ic_sign_1.jpg'
+import icSnare from '../../../signatureimg/ic_snare.jpg'
+import icSnare1 from '../../../signatureimg/ic_snare1.jpg'
+const IgorSign = () => {
+  const [sign, setSign] = useState(icBaqueta)
+  const [signSnare, setSignSnare] = useState(icSnare)
 
   return (
     <>
@@ -35,8 +34,8 @@ const AbeSign = () => {
         </div>
       </header>
       <section id="signature">
-        <img className="banner" src={abeBanner} />
-        <h2 className="title" style={{ color: '#82AEF5' }}>
+        <img className="banner" src={igorBanner} />
+        <h2 className="title" style={{ color: 'red' }}>
           Signatures
         </h2>
         <div>
@@ -44,20 +43,20 @@ const AbeSign = () => {
             <li>
               <img
                 className="product"
-                src={signSnare}
-                onMouseOver={() => setsignSnare(abSnare1)}
-                onMouseOut={() => setsignSnare(abSnare)}
+                src={sign}
+                onMouseOver={() => setSign(icBaqueta1)}
+                onMouseOut={() => setSign(icBaqueta)}
               />
-              <p>Tambor - Canopus The Maple</p>
+              <p>Vic Firth Igor Cavalera Drum</p>
             </li>
             <li>
               <img
                 className="product"
-                src={signStick}
-                onMouseOver={() => setsignStick(abStick1)}
-                onMouseOut={() => setsignStick(abStick)}
+                src={signSnare}
+                onMouseOver={() => setSignSnare(icSnare1)}
+                onMouseOut={() => setSignSnare(icSnare)}
               />
-              <p>Baqueta - American Hickory</p>
+              <p>Yamaha AMS1460</p>
             </li>
           </ul>
         </div>
@@ -66,4 +65,4 @@ const AbeSign = () => {
   )
 }
 
-export default AbeSign
+export default IgorSign

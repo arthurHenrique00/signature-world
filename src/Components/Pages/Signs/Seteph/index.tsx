@@ -9,9 +9,9 @@ import scBlack from '../../../signatureimg/sc_black.jpg'
 import scBlack1 from '../../../signatureimg/sc_black_1.jpg'
 
 const StephSign = () => {
-  const [stcPurp, setStcPurp] = useState(scPurp)
-  const [stcRed, setStcRed] = useState(scRed)
-  const [stcBlack, setStcBlack] = useState(scBlack)
+  const [signPurp, setsignPurp] = useState(scPurp)
+  const [signRed, setsignRed] = useState(scRed)
+  const [signBlack, setsignBlack] = useState(scBlack)
 
   return (
     <>
@@ -47,27 +47,27 @@ const StephSign = () => {
             <li>
               <img
                 className="product"
-                src={stcPurp}
-                onMouseOver={() => setStcPurp(scPurp1)}
-                onMouseOut={() => setStcPurp(scPurp)}
+                src={signPurp}
+                onMouseOver={() => setsignPurp(scPurp1)}
+                onMouseOut={() => setsignPurp(scPurp)}
               />
               <p>SC-607B Purple Satin 7-String</p>
             </li>
             <li>
               <img
                 className="product"
-                src={stcRed}
-                onMouseOver={() => setStcRed(scRed1)}
-                onMouseOut={() => setStcRed(scRed)}
+                src={signRed}
+                onMouseOver={() => setsignRed(scRed1)}
+                onMouseOut={() => setsignRed(scRed)}
               />
               <p>SC-608 Baritone Red Satin 7-String</p>
             </li>
             <li>
               <img
                 className="product"
-                src={stcBlack}
-                onMouseOver={() => setStcBlack(scBlack1)}
-                onMouseOut={() => setStcBlack(scBlack)}
+                src={signBlack}
+                onMouseOver={() => setsignBlack(scBlack1)}
+                onMouseOut={() => setsignBlack(scBlack)}
               />
               <p>SC-608B Black Satin 7-String</p>
             </li>

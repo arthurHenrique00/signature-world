@@ -158,7 +158,7 @@ const Sepultura = () => {
             </div>
             <div>
               <h2>Max Cavalera</h2>
-              <a href="">Signature</a>
+              <a href="/maxsign">Signature</a>
             </div>
           </div>
           <div className="card">
@@ -183,7 +183,7 @@ const Sepultura = () => {
             </div>
             <div>
               <h2>Andreas Kisser</h2>
-              <a href="">Signature</a>
+              <a href="/andreassign">Signature</a>
             </div>
           </div>
           <div className="card">
@@ -207,7 +207,7 @@ const Sepultura = () => {
               </div>
             </div>
             <h2 className="card-title">Igor Cavalera</h2>
-            <a href="">Signature</a>
+            <a href="/igorsign">Signature</a>
           </div>
         </section>
       </div>
