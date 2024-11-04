@@ -21,6 +21,10 @@ import AbeSign from './Components/Pages/Signs/Abe'
 import MaxSign from './Components/Pages/Signs/Max'
 import AndreasSign from './Components/Pages/Signs/Andreas'
 import IgorSign from './Components/Pages/Signs/Igor'
+import KerrySign from './Components/Pages/Signs/Kerry'
+import JeffSign from './Components/Pages/Signs/Jeff'
+import ArayaSign from './Components/Pages/Signs/Araya'
+import LombardoSign from './Components/Pages/Signs/Lombardo'
 
 const rotas = createBrowserRouter([
   {
@@ -88,6 +92,22 @@ const rotas = createBrowserRouter([
   {
     path: '/igorsign',
     element: <IgorSign />
+  },
+  {
+    path: '/kerrysign',
+    element: <KerrySign />
+  },
+  {
+    path: '/jeffsign',
+    element: <JeffSign />
+  },
+  {
+    path: '/arayasign',
+    element: <ArayaSign />
+  },
+  {
+    path: '/lombardosign',
+    element: <LombardoSign />
   }
 ])
 

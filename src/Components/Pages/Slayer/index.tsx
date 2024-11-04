@@ -139,7 +139,7 @@ const Slayer = () => (
         </div>
         <div>
           <h2>Kerry King</h2>
-          <a style={{ color: 'orange' }} href="">
+          <a style={{ color: 'orange' }} href="/kerrysign">
             Signature
           </a>
         </div>
@@ -157,7 +157,7 @@ const Slayer = () => (
         </div>
         <div>
           <h2>Jeff Hanneman</h2>
-          <a style={{ color: 'orange' }} href="">
+          <a style={{ color: 'orange' }} href="/jeffsign">
             Signature
           </a>
         </div>
@@ -174,7 +174,7 @@ const Slayer = () => (
           </div>
         </div>
         <h2 className="card-title">Tom Araya</h2>
-        <a style={{ color: 'orange' }} href="">
+        <a style={{ color: 'orange' }} href="/arayasign">
           Signature
         </a>
       </div>
@@ -190,7 +190,7 @@ const Slayer = () => (
           </div>
         </div>
         <h2 className="card-title">Dave Lombardo</h2>
-        <a style={{ color: 'orange' }} href="">
+        <a style={{ color: 'orange' }} href="/lombardosign">
           Signature
         </a>
       </div>
