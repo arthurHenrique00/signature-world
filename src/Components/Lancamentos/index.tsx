@@ -37,9 +37,9 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div style={{ marginLeft: '420px' }} data-aos="fade-right">
+          <div style={{ margin: ' 120px 420px' }} data-aos="fade-right">
             <div className="news right">
-              <a href="/micksign">Palhetas do Mick Thomson</a>
+              <a href="/micksign">Palheta do Mick Thomson</a>
               <p>
                 O lendário guitarrista Mick Thomson, conhecido por seu estilo
                 pesado e precisão brutal no Slipknot, acaba de lançar uma linha
@@ -76,7 +76,7 @@ const Releases = () => {
           <div data-aos="fade-left">
             <img src={kirkPickNews} />
             <div className="news">
-              <a href="/kirksign">As palhetas Jazz III roxo</a>
+              <a href="/kirksign">A palheta Jazz III roxo</a>
               <p>
                 A Jazz III roxa Signature de Kirk Hammett foi lançada para
                 capturar o toque rápido e preciso do guitarrista. Desenvolvida
@@ -86,9 +86,9 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div style={{ marginLeft: '420px' }} data-aos="fade-right">
+          <div style={{ margin: ' 120px 420px' }} data-aos="fade-right">
             <div className="news right">
-              <a href="/jimrootsign">Jaguar Branca de Jim Root!</a>
+              <a href="/jimsign">Jaguar Branca de Jim Root!</a>
               <p>
                 A Fender lançou a aguardada Jim Root Jaguar branca, trazendo um
                 visual elegante e minimalista com acabamento em branco fosco,
