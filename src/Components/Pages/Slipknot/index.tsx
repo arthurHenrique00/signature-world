@@ -159,7 +159,7 @@ const Slipknot = () => (
         </div>
         <div>
           <h2>Joey Jordison</h2>
-          <a href="">Signature</a>
+          <a href="/joeysign">Signature</a>
         </div>
       </div>
       <div className="card">
@@ -174,7 +174,7 @@ const Slipknot = () => (
           </div>
         </div>
         <h2 className="card-title">Jay Weinberg</h2>
-        <a href="">Signature</a>
+        <a href="/jaysign">Signature</a>
       </div>
       <div className="card">
         <div className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -188,7 +188,7 @@ const Slipknot = () => (
           </div>
         </div>
         <h2 className="card-title">Jim Root</h2>
-        <a href="">Signature</a>
+        <a href="jimsign">Signature</a>
       </div>
       <div className="card">
         <div className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -202,7 +202,7 @@ const Slipknot = () => (
           </div>
         </div>
         <h2 className="card-title">Paul Gray</h2>
-        <a href="">Signature</a>
+        <a href="/paulsign">Signature</a>
       </div>
     </section>
     <Footer />
