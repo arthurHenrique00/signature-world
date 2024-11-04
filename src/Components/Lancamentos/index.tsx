@@ -1,3 +1,5 @@
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './style.scss'
 import rammsteinNews from '../signatureimg/rammstein_news.jpg'
 import mickThomsonNews from '../signatureimg/mt_news.jpg'
@@ -6,8 +8,13 @@ import releasesimg from '../signatureimg/releasesimg.png'
 import monsterGuitarNews from '../signatureimg/monster_guitars_news.png'
 import kirkPickNews from '../signatureimg/kirk_pick_news.png'
 import jimJaguarNews from '../signatureimg/jim_jaguar_news.png'
+import { useEffect } from 'react'
 
 const Releases = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <>
       <div style={{ textAlign: 'center', paddingBottom: '120px' }}>
@@ -18,7 +25,7 @@ const Releases = () => {
         id="releases"
       >
         <div>
-          <div>
+          <div data-aos="fade-left">
             <img src={rammsteinNews} />
             <div className="news">
               <a href="/rammstein">Rammstein!</a>
@@ -30,9 +37,8 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div>
-            <img src={mickThomsonNews} />
-            <div className="news">
+          <div style={{ marginLeft: '420px' }} data-aos="fade-right">
+            <div className="news right">
               <a href="/micksign">Palhetas do Mick Thomson</a>
               <p>
                 O lendário guitarrista Mick Thomson, conhecido por seu estilo
@@ -41,8 +47,9 @@ const Releases = () => {
                 de suas performances
               </p>
             </div>
+            <img src={mickThomsonNews} />
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={tomArayaNews} />
             <div className="news">
               <a href="/arayasign">O baixo de Tom Araya</a>
@@ -53,9 +60,8 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div>
-            <img src={monsterGuitarNews} />
-            <div className="news">
+          <div style={{ margin: ' 120px 420px' }} data-aos="fade-right">
+            <div className="news right">
               <a href="/kirksign">Novas guitarras monsters!</a>
               <p>
                 A linha Signature Monsters de Kirk Hammett foi lançada com
@@ -65,8 +71,9 @@ const Releases = () => {
                 heavy metal.
               </p>
             </div>
+            <img src={monsterGuitarNews} />
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={kirkPickNews} />
             <div className="news">
               <a href="/kirksign">As palhetas Jazz III roxo</a>
@@ -79,9 +86,8 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div>
-            <img src={jimJaguarNews} />
-            <div className="news">
+          <div style={{ marginLeft: '420px' }} data-aos="fade-right">
+            <div className="news right">
               <a href="/jimrootsign">Jaguar Branca de Jim Root!</a>
               <p>
                 A Fender lançou a aguardada Jim Root Jaguar branca, trazendo um
@@ -90,6 +96,7 @@ const Releases = () => {
                 e do Stone Sour.
               </p>
             </div>
+            <img src={jimJaguarNews} />
           </div>
         </div>
       </section>
