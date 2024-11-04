@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import '../style.scss'
-import cBanner from '../../../signatureimg/chrisan_sign.jpg'
-import cVB from '../../../signatureimg/ca_black_.webp'
-import cVB1 from '../../../signatureimg/ca_black_1.webp'
-import cVW from '../../../signatureimg/ca_white.webp'
-import cVW1 from '../../../signatureimg/ca_white_1.webp'
+import mBanner from '../../../signatureimg/marty_sign.jpg'
+import mB from '../../../signatureimg/mf_black.webp'
+import mB1 from '../../../signatureimg/mf_black1.webp'
+import mP from '../../../signatureimg/mf_purp.webp'
+import mP1 from '../../../signatureimg/mf_purp1.jpg'
 
 const MartySign = () => {
-  const [sign, setSign] = useState(cVB)
-  const [signW, setSignW] = useState(cVW)
+  const [sign, setSign] = useState(mB)
+  const [signP, setSignP] = useState(mP)
 
   return (
     <>
@@ -35,7 +35,7 @@ const MartySign = () => {
         </div>
       </header>
       <section id="signature">
-        <img className="banner" src={cBanner} />
+        <img className="banner" src={mBanner} />
         <h2 className="title" style={{ color: '#25F54A' }}>
           Signatures
         </h2>
@@ -45,19 +45,19 @@ const MartySign = () => {
               <img
                 className="product"
                 src={sign}
-                onMouseOver={() => setSign(cVB1)}
-                onMouseOut={() => setSign(cVB)}
+                onMouseOver={() => setSign(mB1)}
+                onMouseOut={() => setSign(mB)}
               />
-              <p>Fender - Jaguar Preta</p>
+              <p>Jackson - LP Black</p>
             </li>
             <li>
               <img
                 className="product"
-                src={signW}
-                onMouseOver={() => setSignW(cVW1)}
-                onMouseOut={() => setSignW(cVW)}
+                src={signP}
+                onMouseOver={() => setSignP(mP1)}
+                onMouseOut={() => setSignP(mP)}
               />
-              <p>Fender - Telecaster White</p>
+              <p>Jackson - MF-1</p>
             </li>
           </ul>
         </div>

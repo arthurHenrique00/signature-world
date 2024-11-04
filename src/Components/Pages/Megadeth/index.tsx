@@ -134,7 +134,7 @@ const Megadeth = () => (
         </div>
         <div>
           <h2>Dave Mustaine</h2>
-          <a style={{ color: '#25F54A' }} href="">
+          <a style={{ color: '#25F54A' }} href="/davemsign">
             Signature
           </a>
         </div>
@@ -152,7 +152,7 @@ const Megadeth = () => (
         </div>
         <div>
           <h2>Marty Friedman</h2>
-          <a style={{ color: '#25F54A' }} href="">
+          <a style={{ color: '#25F54A' }} href="/martysign">
             Signature
           </a>
         </div>
