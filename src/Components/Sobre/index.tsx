@@ -5,7 +5,11 @@ import megadethSobre from '../signatureimg/megadeth_sobr.jpg'
 
 const Sobre = () => (
   <section id="sobre">
-    <div id="carousel-home" className="carousel slide" data-bs-ride="carousel">
+    <div
+      id="carousel-home"
+      className="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
       <div className="carousel-inner">
         <div data-bs-interval="1000" className="carousel-item active">
           <img

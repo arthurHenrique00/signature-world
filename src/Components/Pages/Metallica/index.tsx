@@ -145,7 +145,7 @@ const Metallica = () => (
           </div>
           <div>
             <h2>James Hetfield</h2>
-            <a href="" style={{ color: '#5139F4' }}>
+            <a href="/jamessign" style={{ color: '#5139F4' }}>
               Signature
             </a>
           </div>
@@ -163,7 +163,7 @@ const Metallica = () => (
           </div>
           <div>
             <h2>Kirk Hammett</h2>
-            <a href="" style={{ color: '#5139F4' }}>
+            <a href="/kirksign" style={{ color: '#5139F4' }}>
               Signature
             </a>
           </div>
@@ -180,7 +180,7 @@ const Metallica = () => (
             </div>
           </div>
           <h2 className="card-title">Lars Ulrich</h2>
-          <a href="" style={{ color: '#5139F4' }}>
+          <a href="/larssign" style={{ color: '#5139F4' }}>
             Signature
           </a>
         </div>
