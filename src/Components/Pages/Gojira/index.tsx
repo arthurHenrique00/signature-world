@@ -137,7 +137,7 @@ const Gojira = () => (
         </div>
         <div>
           <h2>Joe Duplantier</h2>
-          <a style={{ color: '#232ADE' }} href="">
+          <a style={{ color: '#232ADE' }} href="/joedsign">
             Signature
           </a>
         </div>
@@ -155,7 +155,7 @@ const Gojira = () => (
         </div>
         <div>
           <h2>Christian Andreu</h2>
-          <a style={{ color: '#232ADE' }} href="">
+          <a style={{ color: '#232ADE' }} href="/chrisasign">
             Signature
           </a>
         </div>
@@ -172,7 +172,7 @@ const Gojira = () => (
           </div>
         </div>
         <h2 className="card-title">Mario Duplantier</h2>
-        <a style={{ color: '#232ADE' }} href="">
+        <a style={{ color: '#232ADE' }} href="/mariosign">
           Signature
         </a>
       </div>

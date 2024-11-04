@@ -30,6 +30,9 @@ import JoeySign from './Components/Pages/Signs/Joey'
 import JaySign from './Components/Pages/Signs/Jay'
 import JimSign from './Components/Pages/Signs/Jim'
 import PaulSign from './Components/Pages/Signs/Paul'
+import JoeDSign from './Components/Pages/Signs/JoeD'
+import ChrisSign from './Components/Pages/Signs/Chris'
+import MarioSign from './Components/Pages/Signs/Mario'
 
 const rotas = createBrowserRouter([
   {
@@ -133,6 +136,18 @@ const rotas = createBrowserRouter([
   {
     path: '/paulsign',
     element: <PaulSign />
+  },
+  {
+    path: '/joedsign',
+    element: <JoeDSign />
+  },
+  {
+    path: '/chrisasign',
+    element: <ChrisSign />
+  },
+  {
+    path: '/mariosign',
+    element: <MarioSign />
   }
 ])
 
