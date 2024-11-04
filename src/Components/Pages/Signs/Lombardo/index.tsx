@@ -48,7 +48,7 @@ const LombardoSign = () => {
                 onMouseOver={() => setSign(lombSnare1)}
                 onMouseOut={() => setSign(lombSnare)}
               />
-              <p>TA-204 FRX</p>
+              <p>Snare 14 5.5 Drum Ikebukuro</p>
             </li>
             <li>
               <img
@@ -57,7 +57,7 @@ const LombardoSign = () => {
                 onMouseOver={() => setSignS(lombStick1)}
                 onMouseOut={() => setSignS(lombStick)}
               />
-              <p>Slaytanic Army - Palheta</p>
+              <p>Pro Mark TX2BXN</p>
             </li>
           </ul>
         </div>

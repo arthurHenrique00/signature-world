@@ -143,7 +143,7 @@ const Slipknot = () => (
         </div>
         <div>
           <h2>Mick Thomson</h2>
-          <a href="">Signature</a>
+          <a href="/micksign">Signature</a>
         </div>
       </div>
       <div className="card">

@@ -18,7 +18,7 @@ const Releases = () => {
         id="releases"
       >
         <div>
-          <div data-aos="">
+          <div>
             <img src={rammsteinNews} />
             <div className="news">
               <a href="/rammstein">Rammstein!</a>
@@ -30,7 +30,7 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div data-aos="">
+          <div>
             <img src={mickThomsonNews} />
             <div className="news">
               <a href="/micksign">Palhetas do Mick Thomson</a>
@@ -42,7 +42,7 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div data-aos="">
+          <div>
             <img src={tomArayaNews} />
             <div className="news">
               <a href="/arayasign">O baixo de Tom Araya</a>
@@ -53,7 +53,7 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div data-aos="">
+          <div>
             <img src={monsterGuitarNews} />
             <div className="news">
               <a href="/kirksign">Novas guitarras monsters!</a>
@@ -66,7 +66,7 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div data-aos="">
+          <div>
             <img src={kirkPickNews} />
             <div className="news">
               <a href="/kirksign">As palhetas Jazz III roxo</a>
@@ -79,7 +79,7 @@ const Releases = () => {
               </p>
             </div>
           </div>
-          <div data-aos="">
+          <div>
             <img src={jimJaguarNews} />
             <div className="news">
               <a href="/jimrootsign">Jaguar Branca de Jim Root!</a>

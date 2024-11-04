@@ -25,6 +25,7 @@ import KerrySign from './Components/Pages/Signs/Kerry'
 import JeffSign from './Components/Pages/Signs/Jeff'
 import ArayaSign from './Components/Pages/Signs/Araya'
 import LombardoSign from './Components/Pages/Signs/Lombardo'
+import MickSign from './Components/Pages/Signs/Mick'
 
 const rotas = createBrowserRouter([
   {
@@ -108,6 +109,10 @@ const rotas = createBrowserRouter([
   {
     path: '/lombardosign',
     element: <LombardoSign />
+  },
+  {
+    path: '/micksign',
+    element: <MickSign />
   }
 ])
 
