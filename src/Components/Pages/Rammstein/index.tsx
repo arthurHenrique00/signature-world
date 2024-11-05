@@ -135,7 +135,7 @@ const Rammstein = () => (
         </div>
         <div>
           <h2>Richard Kruspe</h2>
-          <a style={{ color: '#ACF5A5' }} href="">
+          <a style={{ color: '#ACF5A5' }} href="/richsign">
             Signature
           </a>
         </div>
@@ -153,7 +153,7 @@ const Rammstein = () => (
         </div>
         <div>
           <h2>Paul Lenders</h2>
-          <a style={{ color: '#ACF5A5' }} href="">
+          <a style={{ color: '#ACF5A5' }} href="/lenderssign">
             Signature
           </a>
         </div>
@@ -170,7 +170,7 @@ const Rammstein = () => (
           </div>
         </div>
         <h2 className="card-title">Oliver Riedel</h2>
-        <a style={{ color: '#ACF5A5' }} href="">
+        <a style={{ color: '#ACF5A5' }} href="/oliversign">
           Signature
         </a>
       </div>

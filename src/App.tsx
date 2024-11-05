@@ -38,6 +38,9 @@ import MartySign from './Components/Pages/Signs/Marty'
 import KirkSign from './Components/Pages/Signs/Kirk'
 import LarsSign from './Components/Pages/Signs/Lars'
 import JamesSign from './Components/Pages/Signs/James'
+import RichSign from './Components/Pages/Signs/Richard'
+import LandersSign from './Components/Pages/Signs/Landers'
+import OlivSign from './Components/Pages/Signs/Oliver'
 
 const rotas = createBrowserRouter([
   {
@@ -173,6 +176,18 @@ const rotas = createBrowserRouter([
   {
     path: '/larssign',
     element: <LarsSign />
+  },
+  {
+    path: '/richsign',
+    element: <RichSign />
+  },
+  {
+    path: '/lenderssign',
+    element: <LandersSign />
+  },
+  {
+    path: '/oliversign',
+    element: <OlivSign />
   }
 ])
 
